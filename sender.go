@@ -13,7 +13,7 @@ import (
 
 // Size of frame to send by default. This is arbitrary.
 const kDefaultFrameSize = 4096
-const kBigFrameSize = 4 * kDefaultFrameSize
+const kBigFrameSize = 1 * kDefaultFrameSize
 
 const kAckInterval = 50000      // How often to send ACKs
 const kMaxUnackedBytes = 128000 // Pause message when this many bytes are sent unacked
